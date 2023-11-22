@@ -1,0 +1,41 @@
+.about{
+    padding: 140px 120px;
+    background: url(../img/about/background.png) center/cover;
+}
+.about-box{
+    display: inline-block;
+    &__title{
+        width: 374px;
+        height: 110px;
+        color: $blue;
+        font-size: 51px;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: 1.65px;
+        margin-bottom: 29px;
+    }
+    &__p{
+        max-width: 578px;
+        color: #546285;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 27px; /* 150% */
+        letter-spacing: 0.36px;
+        margin-bottom: 50px;
+    }
+    &__btn{
+        display: inline-block;
+        background: url(../img/about/btn-back.png);
+        width: 124px;
+        color: #FFF;
+        padding: 20px 35px;
+        color: #FFF;
+        border-radius: 5px;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px; /* 117.647% */
+        margin-bottom: 136px;
+    }
+}

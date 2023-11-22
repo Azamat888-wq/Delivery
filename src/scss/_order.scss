@@ -1,0 +1,50 @@
+.order{
+    padding: 120px;
+    display: flex;
+    box-sizing: border-box;
+    .order-img{
+        display: flex;
+        position: relative;
+        max-width: 578px;
+        max-height: 586px;
+    }
+    .order-text__blue{
+        margin-top: 136px;
+        margin-right: 50px;
+        margin-bottom: 29px;
+        width: 529px;
+        color: $blue;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 55px; /* 110% */
+        letter-spacing: 1.65px;
+    }
+    .text{
+        max-height: 250px;
+        transition: max-height .5;
+        &_hidden{
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 3;
+        }
+        &__btn{
+                display: flex;
+                background: url(../img/home/btn-bg.png) center/cover;
+                width: 123px;
+                color: #FFF;
+                padding: 35px 20px;
+                border-radius: 5px;
+                text-align: center;
+                font-size: 17px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 20px; /* 117.647% */
+                margin-bottom: 30px;
+            text-decoration: underline;
+            color: $blue;
+            cursor: pointer;   
+        }
+    }
+}

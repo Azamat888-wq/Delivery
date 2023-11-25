@@ -117,9 +117,9 @@ a, a:hover {
 .text-box__btn {
   display: flex;
   background: url(../img/home/btn-bg.png) center/cover;
-  width: 123px;
+  width: 205px;
   color: #FFF;
-  padding: 35px 20px;
+  padding: 23px 29px;
   border-radius: 5px;
   text-align: center;
   font-size: 17px;
@@ -133,7 +133,7 @@ a, a:hover {
   margin-bottom: 10px;
 }
 .text-box__rating {
-  width: 192px;
+  width: 291px;
   color: #08090A;
   font-size: 16px;
   font-style: normal;
@@ -175,9 +175,9 @@ a, a:hover {
 .about-box__btn {
   display: inline-block;
   background: url(../img/about/btn-back.png);
-  width: 124px;
+  width: 174px;
   color: #FFF;
-  padding: 20px 35px;
+  padding: 16px 29px;
   color: #FFF;
   border-radius: 5px;
   font-size: 17px;
@@ -190,7 +190,7 @@ a, a:hover {
 .tutorial {
   width: 1200px;
   height: 576px;
-  padding: 120px;
+  padding: 140px 120px;
 }
 .tutorial__text {
   margin-left: 400px;
@@ -419,6 +419,7 @@ a, a:hover {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
+  margin-bottom: 20px;
 }
 .order .text__btn {
   display: flex;
@@ -464,6 +465,52 @@ a, a:hover {
   line-height: 27px; /* 150% */
   letter-spacing: 0.36px;
   margin-bottom: 47px;
+}
+
+.support {
+  padding: 44px 43px;
+  display: flex;
+  box-sizing: border-box;
+}
+.support__img {
+  width: 666px;
+  height: 640px;
+  flex-shrink: 0;
+  margin-right: 22px;
+}
+.support__right {
+  width: 666px;
+  height: 640px;
+  margin-left: 22px;
+  background: url(../img/support/supportbg.png) center/cover;
+  display: inline-flex;
+  padding: 264.385px 218.012px 0px 0px;
+  align-items: center;
+}
+.support__header {
+  color: #000;
+  font-size: 53px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60.5px; /* 114.151% */
+  letter-spacing: 1.65px;
+}
+.support__header_span {
+  color: #1B9097;
+  font-size: 51px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60.5px; /* 118.627% */
+  letter-spacing: 1.65px;
+}
+.support__btn {
+  color: #35B8BE;
+  text-align: center;
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 117.647% */
 }
 
 .overlay {
